@@ -34,7 +34,7 @@ const SearchResultHeader = () => {
               alt="google_logo"
             />
           </Link>
-          <SearchInput from="searchInput"></SearchInput>
+          <SearchInput from="searchInput" hidden = "hidden"></SearchInput>
         </div>
         <div className="hidden md:block">
           <ProfileIcon />
